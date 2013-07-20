@@ -1,0 +1,163 @@
+\documentclass[10pt]{article}
+
+\usepackage{mycv}
+
+% ================
+% = THE DOCUMENT =
+% ================
+\begin{document}
+\begin{tabular}[ht]{clr}
+	\multicolumn{2}{l}{\LARGE Adrien Gomar} & \multirow{6}{*}{} \\
+	& & \\
+	\fasymbol{"F041} & 1, allée Charles Malpel, 31300 Toulouse, France \\
+	\fasymbol{"F095} & (+33) 6 14 32 24 24 \\
+	\fasymbol{"F0E0} & \url{adrien.gomar@gmail.com} \\
+	% \fasymbol{"F08C} & \url{http://fr.linkedin.com/in/adriengomar} \\
+	\multicolumn{2}{l}{\url{http://cerfacs.fr/~gomar}} & 
+	\phantom{aaaaaaaaaaaaaaaaaaaaaaaaaaaaa} {}
+\end{tabular}
+
+% ==============
+% = EXPERIENCE =
+% ==============
+\mysec{Experience}
+\begin{mytable}
+\tblentry{2011 \\ à ce jour}{
+
+{\headingfont CERFACS, Toulouse, 
+Thèse de doctorat Arts et Métiers ParisTech}
+
+"Aéroélasticité des hélices contra-rotatives non carénées":\newline
+- extension d’une méthode d’ordre réduit pour la simulation instationnaire de turbomachines, \newline
+- analyse des limites et amélioration de la méthode en vue de son intégration dans l’industrie. \newline
+Co-développeur de la librairie de post-traitement Antares (www.cerfacs.fr/antares). Formation à son utilisation et communication (développement d’un site web, présentations aux industriels).
+Vacations en école d’ingénieur (ISAE) \spacerows \\}
+
+\tblentry{2010 \\ (6 mois)}{
+
+{\headingfont CERFACS, Toulouse, 
+Stage de fin d’étude}
+
+Simulation aux grandes échelles d'un compresseur transsonique. 
+Publication des résultats pour l'European Turbomachinery Conference (mars 2011) \spacerows \\}
+
+\tblentry{2009 \\ (3 mois)}{
+
+{\headingfont LIEBHERR Aerospace, Toulouse, 
+Stage ingénieur}
+
+Simulation stationnaire d’un compresseur centrifuge 
+pour différents points de fonctionnement à l’aide d'un 
+code de calcul industriel (\textit{elsA}). 
+Comparaison des résultats avec un autre code de calcul (Fine/Turbo) \spacerows \\}
+
+\tblentry{2008-2009 \\ (projet étudiant long)}{
+
+{\headingfont Institut Supérieur de l’Aéronautique et de l’Espace (ISAE), Toulouse, 
+Projet d'initiative personnel}
+
+Mise en place d’un dispositif expérimental pour analyser un extracteur d’air d’avion. 
+Simulations numériques stationnaires. 
+Comparaison des résultats expérimentaux et numériques. 
+Présentation des résultats à l'industriel (Technofan) \\}
+
+\multicolumn{2}{c}{\phantom{a}} \\
+
+\tblentry{2007-2009 \\ (2.5 ans)}{
+
+{\headingfont Mac Donald's, Toulouse, Travail étudiant}
+
+Management d'une équipe (15 personnes), 
+amélioration des processus et formations aux différents postes}
+\end{mytable}
+
+% =============
+% = EDUCATION =
+% =============
+\mysec{Education}
+\begin{mytable}
+\tblentry{2011 \\ à ce jour}{
+
+{\headingfont Arts et métiers Paris Tech, Paris, 
+France}
+
+Préparation d’une thèse de doctorat Arts et Métiers ParisTech. 
+Formations réalisées dans le cadre de la thèse: 
+gestion de conflit, gestion de projet et pilotage d’équipe \spacerows \\}
+
+\tblentry{2007-2010}{
+
+{\headingfont Institut Supérieur de l'Aéronautique et de l'Espace (ISAE), 
+Toulouse, France}
+
+Diplôme d’ingénieur. 
+Spécialisation en turbomachines et en mécanique des fluides numériques.
+Responsable du club musique de l’ISAE (ENSICA), membre de l’équipe de rugby \spacerows \\}
+
+\tblentry{2005-2007}{
+
+{\headingfont Lycée militaire de St Cyr, St Cyr l'école, 
+France}
+
+Classes préparatoires aux grandes écoles, 
+Spécialité Physique et Science de l’ingénieur}
+\end{mytable}
+
+% =============================
+% = COMPETENCES INFORMATIQUES =
+% =============================
+\mysec{Compétences informatiques}
+\begin{mytable}
+\tblentry{Programmation}{
+
+Maîtrise de la programmation orientée objet 
+et de la gestion de projets informatiques (Antares) \spacerows  \\}
+
+\tblentry{Langages}{
+
+Python, NumPy, SciPy, Git, Unix, LaTeX, Gnuplot, HTML, CSS et C/C++}
+\end{mytable}
+
+% =============================
+% = COMPETENCES LINGUISTIQUES =
+% =============================
+\mysec{Compétences linguistiques}
+\begin{mytable}
+\tblentry{Anglais}{
+
+Niveau avancé: rédaction de compte-rendus et publications en rapport avec mon travail, présentation techniques et animation de réunions. Capable d’entretenir une conversation professionnelle et privé \spacerows \\}
+
+\tblentry{Allemand}{
+
+Bonnes bases (vécu 5 ans en pays germanophones: 1996-1998, 2000-2003), 
+à réactualiser}
+\end{mytable}
+
+% =====================
+% = CENTRE D INTERETS =
+% =====================
+\mysec{Centres d’intérêts}
+\begin{mytable}
+\tblentry{Culture}{
+
+Pratique de la basse en groupe, composition et enregistrement. 
+Nombreux voyages à l’étranger \spacerows \\}
+
+\tblentry{Sport}{
+
+Pratique de la course à pied et du rugby, 
+actuellement membre de l’équipe de Météo-France (demi de mêlée)}
+\end{mytable}
+
+\mysec{Publications}
+\begin{center}
+	\begin{minipage}[ht]{0.9\textwidth}
+		\nocite{Guedeney2013317}
+		\nocite{Sicot2012uq}
+		\bibliography{publication}
+	\end{minipage}
+\end{center}
+
+
+\bibliographystyle{plain}
+\end{document}
