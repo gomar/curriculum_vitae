@@ -1,20 +1,21 @@
 \documentclass[10pt]{article}
 
 \usepackage{mycv}
+\usepackage{hyperref}
+\hypersetup{colorlinks=false}
 
 % ================
 % = THE DOCUMENT =
 % ================
 \begin{document}
 \begin{tabular}[ht]{clr}
-	\multicolumn{2}{l}{\LARGE Adrien Gomar} & \multirow{6}{*}{TEMP} \\
+	\multicolumn{2}{l}{\LARGE Adrien Gomar} & {\large available in March 2014} \\
 	& & \\
-	\fasymbol{"F041} & 1, allée Charles Malpel, 31300 Toulouse, France \\
+	\fasymbol{"F041} & 1 allée Charles Malpel, Appt. A72, 31300 Toulouse, France \\
 	\fasymbol{"F095} & (+33) 6 14 32 24 24 \\
-	\fasymbol{"F0E0} & \url{adrien.gomar@gmail.com} \\
-	% \fasymbol{"F08C} & \url{http://fr.linkedin.com/in/adriengomar} \\
+	\fasymbol{"F0E0} & \href{mailto:adrien.gomar@gmail.com}{adrien.gomar@gmail.com} \\
 	\multicolumn{2}{l}{\url{http://cerfacs.fr/~gomar}} & 
-	\phantom{aaaaaaaaaaaaaaaaaaaaaaaaaaaaa} {\headingfont references available upon request}
+	\phantom{aaaaaaaaaaaaaaaaaaaa} {references available upon request}
 \end{tabular}
 
 % ==========
@@ -24,21 +25,33 @@
 \begin{mytable}
 \tblentry{Summary}{
 
-- Add some notable value-added skills, such as a second language, 
-licences, or certifications \spacerows \\}
+- Forthcoming Ph.D. in Computational Fluid Dynamics (CFD) with application to compressible aerodynamics (mainly propellers and turbomachines) \newline
+- Master degree in Aerospace Engineering \newline
+- Advanced level in English: able to write publications and reports related to my work, to make
+technical presentations and to animate meetings \spacerows \\}
 
 \tblentry{Computer skills}{
 
-- Used Git control version system for my daily workflow \newline
+- Used several softwares dedicated to Computational Fluid Dynamics: 
+\href{http://www.elsa.onera.fr}{\textit{elsA}} (ONERA), 
+\href{http://www.numeca.be}{Fine/Turbo} (Numeca Int.)
+and \href{http://www.ansys.com}{Fluent} (ANSYS) \newline
 - Proficient in Python, NumPy, Scipy \newline
+- Made use of Git control version system for my daily workflow \newline
 - Ability with object oriented programming languages \spacerows \\}
 
 \tblentry{Communication}{
 
-\spacerows \\}
+- Promulgate Antares software that 
+I developed with a colleague: designed a website (\url{www.cerfacs.fr/antares})
+with tutorials and advertised it to industrial partners (Airbus, Safran-SNECMA, Safran-TURBOMECA) \newline
+- Presentation skills: made several technical presentations for a large audience ($>30$ people), 
+skilful use of design rules and able to draw vectorized diagrams\spacerows \\}
 
 \tblentry{Leadership skills}{
-}
+
+Developed my leadership skills through a team leader position at Mac Donald's. 
+Managed a team of 15 people for 2 years}
 \end{mytable}
 
 % ==============
@@ -54,9 +67,9 @@ Doctoral thesis at numerical computation center}
 
 «Counter rotating open rotor aeroelasticity»: \newline
 - extended a reduce order method for the unsteady simulation of turbomachines, \newline
-- analyzed its limitations and improved it robustness for industrial applications. \newline
-Develop a python post-processing library (www.cerfacs.fr/antares) for large simulations. 
-people to its use and advertise it (development of a website, presentations to industries). \newline
+- analyzed its limitations and improved its robustness for industrial applications. \newline
+Develop a python post-processing library \url{www.cerfacs.fr/antares} for large simulations. 
+Trained people to its use and advertise it (development of a website, presentations to industries). \newline
 Give fluid dynamics lessons at ISAE (french graduate school of Aerospace Engineering) \spacerows \\}
 
 \tblentry{2010 \\ (6 months)}{
@@ -73,7 +86,7 @@ Write proceeding for 9th European Turbomachinery Conference \spacerows \\}
 Engineering internship at turbomachinery department}
 
 Engineering internship at numerical computation center. 
-Benchmarked two CFD software programs: elsA (CFD, ONERA) 
+Benchmarked two CFD software programs: \textit{elsA} (CFD, ONERA) 
 and Fine/Turbo (CFD, Numeca Int.) on centrifugal compressor \spacerows \\}
 
 \tblentry{2008-2009}{
@@ -105,8 +118,9 @@ Team leader after 1 year. Managed a team of 15 people}
 France}
 
 Preparation of an Arts et Métiers Paris Tech doctoral thesis.
+
 Courses followed within the framework of the thesis:
-TO FILL !!!!!!!!!!!! \spacerows \\}
+ \spacerows \\}
 
 \tblentry{2007-2010}{
 
@@ -121,26 +135,20 @@ Specialization in Fluid Dynamics/Turbomachines/Experimental Fluid Dynamics\space
 {\headingfont Lycée militaire de St Cyr, St Cyr l'école, 
 France}
 
-Advanced undergraduate coursework in fundamental studies of Science and Engineering \spacerows \\}
-
-\tblentry{2005}{
-{\headingfont Baccalauréat, Lycée Jules Ferry (secondary school), Conflans Ste Honorine, 
-France}
-
-French equivalent to GCE 'A' levels in Mathematics, Physics, Chemistry and Biology with honors}
+Advanced undergraduate coursework in fundamental studies of Science and Engineering}
 \end{mytable}
 
-% ================
-% = PUBLICATIONS =
-% ================
-\mysec{Publications}
-\begin{center}
-	\begin{minipage}[ht]{0.9\textwidth}
-		\nocite{Guedeney2013317}
-		\nocite{Sicot2012uq}
-		\bibliography{publication}
-	\end{minipage}
-\end{center}
+% % ================
+% % = PUBLICATIONS =
+% % ================
+% \mysec{Publications}
+% \begin{center}
+% 	\begin{minipage}[ht]{0.9\textwidth}
+% 		\nocite{Guedeney2013317}
+% 		\nocite{Sicot2012uq}
+% 		\bibliography{publication}
+% 	\end{minipage}
+% \end{center}
 
 
 \bibliographystyle{plain}
