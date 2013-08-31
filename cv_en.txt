@@ -1,63 +1,63 @@
 Adrien Gomar
 1 allée Charles Malpel, Appt. A72, 31300 Toulouse, France 
-(+33) 6 14 32 24 24
+Tel: (+33) 6 14 32 24 24
 adrien.gomar@gmail.com
-born 1987, Male
+born 20 May 1987, Male
 
 # Skills & Abilities
-* Summary
-- Forthcoming Ph.D. in Computational Fluid Dynamics (CFD) with application to unsteady compressible aerodynamics (mainly turbomachines and propellers). Defense expected in February 2014
+## Summary
+- Forthcoming Ph.D. in Computational Fluid Dynamics (CFD) with application to unsteady compressible aerodynamics (mainly turbomachines and propellers). Defence expected in February 2014
 - Master degree in Aerospace Engineering
 - Advanced level in English: wrote reports and publications related to my work, made technical presentations and animated meetings
 
-* Communication
-- Promulgated Antares software program: designed a website (www.cerfacs.fr/antares) with tutorials and promoted it to industrial partners (Airbus, Snecma, Turbomeca)
-- Presentation skills: made several technical presentations for a large audience (>30 people), skillful use of design rules (color schemes, diagrams instead of text, clarity of slides)
+## Communication
+- Promulgated Antares software: designed a website (www.cerfacs.fr/antares) with tutorials and promoted it to industrial partners (Airbus, Snecma, Turbomeca)
+- Presentation skills: made several technical presentations for a large audience (>30 people), skilful use of design rules (colour schemes, diagrams instead of text, clarity of slides)
 
-* Leadership skills
+## Leadership skills
 Developed my leadership skills through a team leader position at Mc Donald’s (team of 15 people)
 
-* Computer skills - Used several software program dedicated to CFD: elsA, Fine/Turbo and Fluent
+## Computer skills 
+- Used several software programs dedicated to CFD: elsA, Fine/Turbo and Fluent
 - Proficient in Python, NumPy, Scipy. Ability with object oriented programming languages (Python, C++, Java). Developed Antares post-processing library (www.cerfacs.fr/antares)
-- Used Git control version system for Antares and my daily workflow
+- Used Git control version system
 
 # Experience
-* 2011 up to now
-CERFACS & Arts et Métiers ParisTech, Toulouse, France, PhD thesis
+## 2011 up to now
+CERFACS & Arts et Métiers ParisTech, Toulouse, France, Research work as PhD candidate
 entitled ”Counter rotating open rotor aeroelasticity”, I currently:
 - extend a reduce order method for the unsteady weak coupling of aeroelasticity in turbomachines within an industrial CFD code (elsA),
 - validate the model against experimental data on a reference configuration,
 - explain the limitations of the model and improve its robustness for industrial applications,
 - apply the method on an industrial contra-rotating open rotor configuration,
-- develop a python post-processing library (www.cerfacs.fr/antares) to ease the process for large simulation databases. Promote it: development of a website and presentations to industrial partners (Airbus, Snecma, Turbomeca) and train related,
-- teach fluid dynamics at ISAE (graduate school of Aerospace Engineering)
+- develop a post-processing library written in python (www.cerfacs.fr/antares) for large simulation databases. Promote it: development of a website and presentations to industrial partners (Airbus, Snecma, Turbomeca) and train people to its use,
+- teach Fluid Dynamics at ISAE (graduate school of Aerospace Engineering)
 
-* 2010 (6 months)
+## 2010 (6 months)
 CERFACS, Toulouse, France, Engineering internship
 Computed Large Eddy Simulation of a high-pressure compressor stage. 
 Post-processed and analyzed large simulations (>Go). 
-Compared the results to experimental data provided by the NASA. 
-Wrote proceeding for 9th European Turbomachinery Conference
+Compared the results to experimental data.
 
-* 2009 (3 months)
+## 2009 (3 months)
 LIEBHERR Aerospace, Toulouse, France, Engineering internship
 Benchmarked two CFD software programs: elsA and Fine/Turbo on a centrifugal compressor
 
-* 2008-2009
+## 2008-2009
 Institut Supérieur de l’Aéronautique et de l’Espace (ISAE), Toulouse, France, Long student project
 Set an experimental approach to analyze an airplane extract fan. 
 Benchmarked experimental and simulation results (using Fine/Turbo). Presented the results to an industrial partner (Technofan)
 
-* 2007-2009 (2.5 years)
+## 2007-2009 (2.5 years)
 Mc Donald’s, Toulouse, France, Student job
 Team leader. Managed a team of 15 people with good interpersonal skills and team spirit. 
 Trained new recruits to Mc Donald’s standards
 
 # Education
-* Feb 2014 (expected)
+## Feb 2014 (expected)
 Arts et Métiers ParisTech & CERFACS, Paris, France
 PhD in Computational Fluid Dynamics with application to unsteady compressible aerodynamics
 
-* Sept 2010
+## Sept 2010
 Institut Supérieur de l’Aéronautique et de l’Espace (ISAE), Toulouse, France
-MS in aeronautical engineering
+MS in Aerospace Engineering, specialisation in experimental/computational fluid dynamics and turbomachines
