@@ -7,7 +7,7 @@
 % = Helvetica Neue as font =
 % ==========================
 % quiet kills all warnings
-\RequirePackage[quiet]{fontspec}
+\RequirePackage{fontspec}
 % bs I don't know why
 \defaultfontfeatures{Mapping=tex-text}
 % main font as Helvetica Neue Light
@@ -34,11 +34,6 @@
 % right width is 0.84
 \newcolumntype{R}{p{0.80\textwidth}}
 
-% ================
-% = FONT AWESOME =
-% ================
-\newfontfamily{\FA}{FontAwesome}
-
 % =================================
 % = NEW COMMANDS AND ENVIRONMENTS =
 % =================================
@@ -50,8 +45,6 @@
 \newenvironment{mytable}{
 \begin{tabular}{L! {\color{black}\vrule width 1pt} R}}{
 \end{tabular}}
-% font awesome symbols
-\newcommand{\fasymbol}[1]{{\tiny \FA \symbol{#1}}}
 % space betwenn two rows
 \newcommand{\spacerows}{\vspace*{0.5em}}
 
