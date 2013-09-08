@@ -1,6 +1,7 @@
 \documentclass[10pt]{article}
 
 \usepackage{mycv}
+\usepackage{bibentry}
 
 % ================
 % = THE DOCUMENT =
@@ -11,7 +12,7 @@
 	& & \phantom{aaaaaaaaaaaaaaaaaaaa} {references available upon request} \\
 	\includegraphics[height=9pt]{pictures/icon-map.pdf} & 1 allée Charles Malpel, Appt. A72, 31300 Toulouse, France \\
 	\includegraphics[height=9pt]{pictures/icon-phone.pdf} & (+33) 6 14 32 24 24 \\
-	\includegraphics[height=9pt]{pictures/icon-mail.pdf} & \href{mailto:adrien.gomar@gmail.com}{adrien.gomar@gmail.com} \\
+	\includegraphics[height=9pt]{pictures/icon-mail.pdf} & adrien.gomar@gmail.com \\
 	\multicolumn{2}{l}{born 20 May 1987, Male} & \\
 \end{tabular}
 
@@ -30,18 +31,16 @@ technical presentations and animated meetings \spacerows \\}
 \tblentry{Computer skills}{
 
 - Used several software dedicated to \underline{CFD}: 
-\href{http://elsa.onera.fr}{\textit{elsA}}, 
-\href{http://www.numeca.com/en/products/finetmturbo}{Fine/Turbo}
-and \href{http://www.ansys.com/Products/Simulation+Technology/Fluid+Dynamics/Fluid+Dynamics+Products/ANSYS+Fluent}{Fluent} \newline
+\textit{elsA}, Fine/Turbo and Fluent \newline
 - Proficient in \underline{Python}, NumPy, Scipy. 
 Ability with \underline{object oriented} programming languages (Python, C++, Java). 
-Developed Antares post-processing library (\href{http://cerfacs.fr/antares/}{www.cerfacs.fr/antares}) \newline
+Developed Antares post-processing library (www.cerfacs.fr/antares) \newline
 - Used \underline{Git} control version system\spacerows \\}
 
 \tblentry{Communication}{
 
 - Promulgated Antares software:
-\underline{designed a website} (\href{http://cerfacs.fr/antares/}{www.cerfacs.fr/antares})
+\underline{designed a website} (www.cerfacs.fr/antares)
 with tutorials and \underline{promoted it to industrial partners} (Airbus, Snecma, Turbomeca) \newline
 - \underline{Presentation skills}: made several technical presentations for a large audience (>30 people), 
 skilful use of design rules (colour schemes, diagrams instead of text, clarity of slides)\spacerows \\}
@@ -63,11 +62,11 @@ Research work as PhD candidate}
 
 entitled "Counter rotating open rotor aeroelasticity", I currently: \newline
 - extend a reduce order method for the unsteady weak coupling of aeroelasticity in turbomachines 
-within an industrial CFD code (\href{http://elsa.onera.fr}{\textit{elsA}}), \newline
+within an industrial CFD code (\textit{elsA}), \newline
 - validate the model against experimental data on a reference configuration, \newline
 - explain the limitations of the model and improve its robustness for industrial applications, \newline
 - apply the method on an industrial contra-rotating open rotor configuration, \newline
-- develop a post-processing library written in python (\href{http://cerfacs.fr/antares/}{www.cerfacs.fr/antares})
+- develop a post-processing library written in python (www.cerfacs.fr/antares)
 for large simulation databases. 
 Promote it: development of a website and 
 presentations to industrial partners (Airbus, Snecma, Turbomeca) and train people to its use, \newline
@@ -103,7 +102,7 @@ and Fine/Turbo on a centrifugal compressor \spacerows \\}
 Long student project}
 
 Set up an experimental approach to analyse an airplane extract fan. 
-Benchmarked experimental and simulation results (using \href{http://www.numeca.com/en/products/finetmturbo}{Fine/Turbo}). 
+Benchmarked experimental and simulation results (using Fine/Turbo). 
 Presented the results to an industrial partner (Technofan) \\}
 
 \multicolumn{2}{c}{\phantom{a}} \\
@@ -138,18 +137,23 @@ Toulouse, France}
 MS in Aerospace Engineering, specialisation in experimental/computational fluid dynamics and turbomachines}
 \end{mytable}
 
+
 % ================
 % = PUBLICATIONS =
 % ================
-\mysec{Publications}
-\begin{center}
-	\begin{minipage}[ht]{0.9\textwidth}
-		\nocite{Guedeney2013317}
-		\nocite{Sicot2012uq}
-		\bibliography{publication}
-	\end{minipage}
-\end{center}
-
-
 \bibliographystyle{plain}
+% \setlength\bibitemsep{0pt}
+\nobibliography{publication}
+
+\mysec{Publications}
+\begin{mytable}
+	% PEER REVIEWED
+	\tblentry{Peer-Reviewed Journals}{\bibentry{GuedeneyJCP} \spacerows \\}
+	\tblentry{}{\bibentry{SicotAIAA} \spacerows \\}
+	\multicolumn{2}{c}{\phantom{a}} \\
+	% CONFERENCES
+	\tblentry{Conference Contributions}{\bibentry{GuedeneyCFM} \spacerows \\}
+	\tblentry{}{\bibentry{GomarETC} \spacerows \\}
+	\tblentry{}{\bibentry{Gourdain3AF}}
+\end{mytable}
 \end{document}
