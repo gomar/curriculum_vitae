@@ -1,0 +1,46 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{mycv}[2013/07/18, init]
+
+\RequirePackage[latin1]{inputenc}
+
+% ==========================
+% = Helvetica Neue as font =
+% ==========================
+% quiet kills all warnings
+\RequirePackage[quiet]{fontspec}
+% bs I don't know why
+\defaultfontfeatures{Mapping=tex-text}
+% main font as Helvetica Neue Light
+\setmainfont[Mapping=tex-text]{Helvetica Neue Light}
+% heading font is Helvetica Neue
+\newfontfamily\headingfont[]{Helvetica Neue}
+% section title to huge
+\RequirePackage{sectsty}
+\sectionfont{\LARGE}
+
+% ====================
+% = Document margins =
+% ====================
+\RequirePackage[margin=60pt]{geometry}
+
+% ================
+% = FONT AWESOME =
+% ================
+\newfontfamily{\FA}{FontAwesome}
+
+% =================================
+% = NEW COMMANDS AND ENVIRONMENTS =
+% =================================
+% font awesome symbols
+\newcommand{\fasymbol}[1]{{\tiny \FA \symbol{#1}}}
+
+% ==========
+% = OTHERS =
+% ==========
+% adding url with the same font
+\RequirePackage{url}
+\RequirePackage{hyperref}
+\hypersetup{colorlinks=false}
+\urlstyle{same}
+% removing page numbering
+\pagestyle{empty}
