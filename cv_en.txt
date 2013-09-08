@@ -19,7 +19,7 @@ Developed my leadership skills through a team leader position at Mc Donald’s (
 
 ## Computer skills 
 - Used several software programs dedicated to CFD: elsA, Fine/Turbo and Fluent
-- Proficient in Python, NumPy, Scipy. Ability with object oriented programming languages (Python, C++, Java). Developed Antares post-processing library (www.cerfacs.fr/antares)
+- Proficient in Python, NumPy, Scipy (Free Matlab equivalent). Ability with object oriented programming languages (Python, C++, Java). Developed Antares post-processing library (www.cerfacs.fr/antares)
 - Used Git control version system
 
 # Experience
