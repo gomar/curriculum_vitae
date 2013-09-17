@@ -1,0 +1,109 @@
+Adrien Gomar
+1 allee Charles Malpel, Appt. A72, 31300 Toulouse, France 
+Tel: (+33) 6 14 32 24 24
+adrien.gomar@gmail.com
+born 20 May 1987, Male
+
+
+===========
+= PROFILE =
+===========
+Creative, dynamic PhD candidate in CFD with experience in turbomachines and experimental fluid dynamics
+Ideal candidate for position requiring drive, initiative, responsibility and challenge
+
+
+==============
+= EXPERIENCE =
+==============
+
+PhD candidate, CERFACS & Arts et Metiers ParisTech, Toulouse, France
+2011 to date
+------------
+"Counter rotating open rotor aeroelasticity":
+Extended reduce order method for aeroelastic weak coupling in turbomachines within industrial CFD code 
+Validated method against experimental data on reference configuration
+Explained limitations of method and improved its robustness for industrial applications
+Applied method on industrial contra-rotating open rotor configuration
+Developed post-processing library for large simulation databases written in python (www.cerfacs.fr/antares) 
+Promoted Antares by developing website. Presented it to industrial partners (Airbus, Snecma, Turbomeca)
+Trained Antares users 
+Taught Fluid Dynamics at ISAE (Graduate School of Aeronautical Engineering)  
+
+
+Engineering internship, CERFACS, Toulouse, France 
+2010 (6 months)
+------------
+Computed Large Eddy Simulation of high-pressure compressor stage 
+Post-processed and analysed large simulations (>Go of data)
+Compared results to experimental data 
+
+
+Student project, Institut Superieur de l'Aeronautique et de l'Espace (ISAE), Toulouse, France
+2010 (1 month)
+------------
+Computed flow around dragonfly airfoil using ANSYS-Fluent
+Unstructured meshing using ANSYS-Gambit  
+
+
+Long student project, Institut Superieur de l'Aeronautique et de l'Espace (ISAE), Toulouse, France
+2009  (6 months)
+------------
+Set up experimental approach to analyse airplane extract fan using five hole probe and LabVIEW 
+Benchmarked experimental and CFD results made using NUMECA-Fine/Turbo
+Presented results to industrial partner (Technofan) 
+
+
+Team leader, Mc Donald's, Toulouse, France
+2007-2009  (2.5 years)
+------------
+Managed team of 15 people with good interpersonal skills and team spirit 
+Trained new recruits to Mc Donald's standards
+
+
+=============
+= EDUCATION =
+=============
+
+Arts et Metiers ParisTech & CERFACS, Paris, France
+Feb 2014 (expected)
+------------
+PhD in Computational Fluid Dynamics with application to unsteady compressible aerodynamics
+
+
+ISAE Graduate School of Aeronautical Engineering, Toulouse, France
+Sept 2010
+------------
+MS in Aeronautical Engineering. 
+Courses include: Computational and Experimental Fluid Dynamics,
+Turbomachines, Thermodynamics, Electronics (using Matlab), Structural Mechanics, IT
+
+
+==========
+= SKILLS =
+==========
+
+Computer skills
+------------
+Confirmed user of CFD softwares: ONERA-elsA, ANSYS-Fluent and NUMECA-Fine/Turbo 
+Ability with object oriented programming languages (Python, C++, Java) 
+Proficient in Python, NumPy, Scipy
+Developed Antares post-processing library (www.cerfacs.fr/antares)
+
+
+Language skills
+------------
+Advance level in English: wrote reports and publications related to work 
+Gave technical presentations and chaired meetings 
+
+
+Presentation skills
+------------
+Presented technical subjects for large audience (>30 people) 
+Skillful use of design rules (colour schemes, diagrams instead of text, clarity of slides) 
+
+
+Activities
+------------
+Member of different rugby teams for 10 years (scrum-half) and runner 
+Composer, songwriter and bass player: www.soundcloud.com/get-fat and www.soundcloud.com/gaeg
+
